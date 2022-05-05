@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class product
+{
+int price;
+String pcode,pname;
+void getinput()
+{
+Scanner obj=new Scanner(System.in); 
+System.out.println("Enter product code:");
+pcode=obj.nextLine();
+System.out.println("Enter product name:");
+pname=obj.nextLine();
+System.out.println("Enter product price:");
+price=obj.nextInt();
+}
+void display()
+{
+System.out.println("Product Code="+pcode);
+System.out.println("Product Name="+pname);
+System.out.println("Product Price="+price);
+}
+}
